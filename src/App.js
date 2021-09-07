@@ -8,6 +8,7 @@ import LoginInPage from "./components/pages/LoginInPage";
 import ProfilePage from "./components/pages/ProfilePage";
 import RegistrationPage from "./components/pages/RegistrationPage";
 
+
 // - [x] functions
 // - [x] imp. v. declare
 // - [x] ES6 | commonJS
@@ -38,7 +39,7 @@ import RegistrationPage from "./components/pages/RegistrationPage";
 
 export default function App() {
   return (
-    <div className="bg-gray-300 h-screen">
+    <div className="bg-white h-screen">
       {/* 
       we replaced this from NavBar to split into smaller bit
        */}

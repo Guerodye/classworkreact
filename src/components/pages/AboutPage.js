@@ -5,7 +5,7 @@
 function AboutPage() {
   return (
     <div>
-      <p>MSIMBO Bootcamp's mission is Web Designer workforce development.</p>
+      <p >MSIMBO Bootcamp's mission is Web Designer workforce development.</p>
       <p> Lady </p>
     </div>
   );
