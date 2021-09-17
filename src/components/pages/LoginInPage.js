@@ -25,19 +25,19 @@ function LoginInPage() {
   };
 
   return (
-      <div className="space-y-6 ">
-          <div className="bg-red-400 w-1/2  border-2  text-center p-6">
+      <div className="space-y-6 text-center  ">
+          <div className="bg-white w-1/2  ml-80 mb-10 border-2  text-center p-6">
               <p className="">Step 1: College attendee verification</p>
               <p>Enter Email address</p>
-              <input className="" name="username" type="text"/>
+              <input className="border-black border-2" name="username" type="text"/>
               <p>Please submit your college ID car or your college admission letter</p>
               <p>Upload here</p>
-              <input className="bg-red-700 border-red-800 font-bold p-z" type="submit" value="Submit"/>
+              <input className="bg-black  text-white font-bold p-2" type="submit" value="Submit"/>
           </div>
 
          <div className="flex">
            <div className="w-1/2 h-1/2 ">
-            <img className=" bg-cover " src="/images/roomate.jpg" alt=""/>
+            <img className=" bg-cover " src="/images/rommate 2.jpg" alt=""/>
            </div>
 
 
@@ -47,7 +47,7 @@ function LoginInPage() {
                    <input name="username" ref={username} type="text" className=" mt-5 border-2 block w-full p-2 rounded border-gray-300" placeholder="Enter email" />
                    <input name="password" ref={password} type="passward" className=" mt-5 border-2 block w-full p-2  rounded border-gray-300 " placeholder="Enter password" />
                    {/* <button onClick={}>Login</button> */}
-                   <input type="sumbit" value="Sign in" className=" mt-5 text-center border-2 block py-3 bg-green-500 text-white w-full rounded hover:bg-green-600" />
+                   <input type="sumbit" value="Sign in" className=" mt-5 text-center border-2 block py-3 bg-black text-white w-full rounded hover:bg-green-600" />
                    </form>
 
             </div>

@@ -8,7 +8,7 @@ const Header = () => {
   const [user] = useState();
 
   return (
-    <div className={"flex justify-between bg-gray-200 p-3"}>
+    <div className={"flex justify-between bg-black text-white p-3"}>
       <NavBar />
       <Profile user={user} />
     </div>

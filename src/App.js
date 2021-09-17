@@ -6,7 +6,11 @@ import DashboardPage from "./components/pages/DashboardPage";
 import HomePage from "./components/pages/HomePage";
 import LoginInPage from "./components/pages/LoginInPage";
 import ProfilePage from "./components/pages/ProfilePage";
+import ProfileTenant from "./components/pages/ProfileTenant";
 import RegistrationPage from "./components/pages/RegistrationPage";
+
+
+
 
 
 // - [x] functions
@@ -38,6 +42,7 @@ import RegistrationPage from "./components/pages/RegistrationPage";
 //        >>>> Jamstack <<< || LAMP || M[E][X]N
 
 export default function App() {
+    //write javascript here (functions and variables
   return (
     <div className="bg-white h-screen">
       {/* 
@@ -52,6 +57,7 @@ export default function App() {
           <Route exact path="/contact" component={ContactPage} />
           <Route exact path="/dashboard" component={DashboardPage} />
           <Route exact path="/profile" component={ProfilePage} />
+          <Route exact path="/profileTenant" component={ProfileTenant} />
           <Route exact path="/" component={HomePage} />
         </Switch>
       </div>
@@ -60,3 +66,6 @@ export default function App() {
     </div>
   );
 }
+
+
+
